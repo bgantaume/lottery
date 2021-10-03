@@ -22,13 +22,13 @@ module.exports = {
   networks: {
     hardhat: {
     },
-    mumbai: {
-      url:"https://rpc-mumbai.maticvigil.com",
-      accounts: [process.env.PRIVATE_KEY]
-    },
-    polygon: {
-      url:"https://polygon-rpc.com/",
-      accounts: [process.env.PRIVATE_KEY]
-    }
+    // mumbai: {
+    //   url:"https://rpc-mumbai.maticvigil.com",
+    //   accounts: [process.env.PRIVATE_KEY]
+    // },
+    // polygon: {
+    //   url:"https://polygon-rpc.com/",
+    //   accounts: [process.env.PRIVATE_KEY]
+    // }
   }
 };
